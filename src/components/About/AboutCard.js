@@ -8,25 +8,27 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Atseneh Abate </span>
-            from <span className="purple"> Addis Ababa, Ethiopia.</span>
+            Hi Everyone, I am <span className="accent">Atseneh Abate</span>, a
+            <span className="accent"> Full Stack Maestro</span> from
+            <span className="accent"> Addis Ababa, Ethiopia.</span>
             <br />
-            I am currently employed as a software developer at Red Cloud ICT Solution.
+            With over <span className="accent">5.5 years</span> of turning complex logic into smooth ERP systems,
+            I've climbed from a Programmer Lead at CNET to the Head of Web Development at Red Cloud.
             <br />
-             I have successfully completed an Integrated Bachelor of Science in Computer Engineering from Addis Ababa University.
+            I'm a BSc graduate in Computer Engineering from Addis Ababa University—where I learned to survive on coffee and clean code.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            When I'm not orchestrating servers or squashing bugs, you'll find me:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Reading 
+              <ImPointRight /> Exploring the world (mostly looking for the perfect coffee)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Writing Tech Blogs (explaining my bugs to others)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Mastering the art of "Just one more line of code"
             </li>
           </ul>
 

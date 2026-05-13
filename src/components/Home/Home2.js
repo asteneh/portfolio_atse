@@ -16,39 +16,39 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="accent"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’ve developed a passion for programming and, I believe, 
-              gained some valuable knowledge along the way, I think… 🤷‍♂️
+              I’ve developed a passion for programming and, I believe,
+              gained some valuable knowledge along the way...
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C#, Javascript and Go. </b>
+                <b className="accent"> C#, Javascript and Go. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="accent">Web Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">
+                <b className="accent">
                   Blockchain.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="accent">Node.js</b> and
               <i>
-                <b className="purple">
+                <b className="accent">
                   {" "}
                   Modern Javascript Library and Frameworks
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="accent"> React.js and Next.js</b>
               </i>
             </p>
           </Col>
@@ -62,7 +62,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="accent">connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

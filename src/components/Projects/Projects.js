@@ -15,20 +15,19 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My <strong className="accent">Legendary </strong> Works
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Behold the digital monuments I've built over the years.
         </p>
-        {/* <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Enterprise ERP System"
+              description="A massive ERP system for finance, HRMS, and stock. It's essentially the brain of an entire company—hopefully, a smart one."
+              ghLink="https://github.com/atseneh/ERP_System"
             />
           </Col>
 
@@ -36,10 +35,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="G_CRM System"
+              description="A complete CRM with lead management and omnichannel chat. Built in 2.5 months, it's faster than your average delivery pizza."
+              ghLink="https://github.com/atseneh/G_CRM"
             />
           </Col>
 
@@ -47,10 +45,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Order Management System"
+              description="A web app for tracking fees and products. Because knowing where your money goes is better than guessing."
+              ghLink="https://github.com/atseneh/Order_Manager"
             />
           </Col>
 
@@ -58,10 +55,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Ethiopian TV & Radio Stream"
+              description="Live streaming app built with React Native. Bringing the high-voltage energy of Ethiopian media to your tiny screen."
+              ghLink="https://github.com/atseneh/Ethio_Stream"
             />
           </Col>
 
@@ -69,10 +65,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Event Suggestion System"
+              description="AI-based recommendations for cool stuff to do. Useful for people who think 'refreshing a browser' is an outdoor activity."
+              ghLink="https://github.com/atseneh/Event_AI"
             />
           </Col>
 
@@ -80,14 +75,52 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Dynamic File Manager"
+              description="A Node.js/MongoDB system for category-based file uploads. Keeping your digital mess in organized folders."
+              ghLink="https://github.com/atseneh/File_Magic"
             />
           </Col>
-        </Row> */}
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify} // Reusing image as placeholder for more projects
+              isBlog={false}
+              title="Milk Test Web App"
+              description="QR scanning and milk test results dashboard. The first line of defense between the cow and your cereal bowl."
+              ghLink="https://github.com/atseneh/Milk_Tester"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Voucher Attachment System"
+              description="Production-optimized AJAX file upload system. Because uploading files shouldn't feel like a dial-up experience."
+              ghLink="https://github.com/atseneh/Voucher_Upload"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Company Website Dashboard"
+              description="A full CMS dashboard for corporate websites. Giving non-techies the power to break—I mean, update—things easily."
+              ghLink="https://github.com/atseneh/Dashboard_X"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="Omnichannel CRM"
+              description="A multi-channel communication platform. Reach your customers everywhere, like an over-attached ex, but more professional."
+              ghLink="https://github.com/atseneh/Omni_CRM"
+            />
+          </Col>
+        </Row>
       </Container>
     </Container>
   );

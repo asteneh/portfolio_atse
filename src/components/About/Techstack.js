@@ -6,52 +6,48 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
   DiDotnet
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiMicrosoftsqlserver,
+  SiCsharp,
+  SiTypescript,
+  SiTailwindcss,
+  SiBootstrap,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="C#">
+        <SiCsharp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title=".NET Core">
         <DiDotnet />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="JavaScript">
         <DiJavascript1 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="React.js">
         <DiReact />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="Node.js">
+        <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="SQL Server">
+        <SiMicrosoftsqlserver />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" title="MongoDB">
         <DiMongodb />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+      <Col xs={4} md={2} className="tech-icons" title="TypeScript">
+        <SiTypescript />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+      <Col xs={4} md={2} className="tech-icons" title="Tailwind CSS">
+        <SiTailwindcss />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+      <Col xs={4} md={2} className="tech-icons" title="Bootstrap">
+        <SiBootstrap />
       </Col>
     </Row>
   );
